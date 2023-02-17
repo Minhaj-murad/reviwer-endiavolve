@@ -7,7 +7,7 @@
    
 }
 
-body{
+.reviewer-container{
     padding: 20px;
     min-height: 100vh;
     display: flex;
@@ -64,49 +64,60 @@ line-height: 3rem;
     text-transform: capitalize;
 }
 
-#myBtn{
+#reviewers-myBtn{
     border: none;
     font-size: 18px;
     color: blue;
     background-color: #fff;
 }
 
-#myBtn:hover{
+#reviewers-myBtn:hover{
     border: none;
     color: orange;
 }
-#myBtn1{
+#reviewers-myBtn1{
     border: none;
     font-size: 18px;
     color: blue;
     background-color: #fff;
 }
 
-#myBtn1:hover{
-    border: none;
-    color: orange;
-}
-
-#myBtn2{
-    border: none;
-    font-size: 18px;
-    color: blue;
-    background-color: #fff;
-}
-
-#myBtn2:hover{
+#reviewers-myBtn1:hover{
     border: none;
     color: orange;
 }
 
-#myBtn3{
+#reviewers-myBtn2{
     border: none;
     font-size: 18px;
     color: blue;
     background-color: #fff;
 }
 
-#myBtn3:hover{
+#reviewers-myBtn2:hover{
+    border: none;
+    color: orange;
+}
+
+#reviewers-myBtn3{
+    border: none;
+    font-size: 18px;
+    color: blue;
+    background-color: #fff;
+}
+
+#reviewers-myBtn3:hover{
+    border: none;
+    color: orange;
+}
+#reviewers-myBtn4{
+    border: none;
+    font-size: 18px;
+    color: blue;
+    background-color: #fff;
+}
+
+#reviewers-myBtn4:hover{
     border: none;
     color: orange;
 }
@@ -122,4 +133,254 @@ line-height: 3rem;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+}
+
+
+
+.reviewers-comment-reactsection {
+    font-size: 18px;
+    padding-inline: 30px;
+    margin-block: 20px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.reviewers-action-button:hover {
+    cursor: pointer;
+    color: #ffa502;
+
+}
+.reviewers-action-button:active {
+    cursor: pointer;
+    color: #3742fa;
+
+}
+
+
+.reviewers-review-react {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.reviewers-review-react-reply {
+
+    border: none;
+    color: #3742fa;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 5px 15px;
+    font-weight: 800;
+    background-color: #fff;
+}
+
+.reviewers-review-react-reply:hover {
+   
+    
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+#reviewers-reply-section{
+    width: 50vw;
+   margin-inline: auto;
+    display: none;
+    margin-bottom: 20px;
+}
+
+#reviewers-reply-section1{
+    width: 50vw;
+   margin-inline: auto;
+    display: none;
+    margin-bottom: 20px;
+}
+#reviewers-reply-section2{
+    width: 50vw;
+   margin-inline: auto;
+    display: none;
+    margin-bottom: 20px;
+}
+
+#reviewers-reply-section3{
+    width: 50vw;
+   margin-inline: auto;
+    display: none;
+    margin-bottom: 20px;
+}
+#reviewers-reply-section4{
+    width: 50vw;
+   margin-inline: auto;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.reviewers-comment-area {
+    width: 90%;
+    margin-inline: auto;
+    display: block;
+}
+
+.reviewers-comment-area-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewers-comment-text-area
+{
+height: 20px;
+width: 100%;
+border: none;
+border-Bottom: 2px solid #Aaa;
+background-color: Transparent;
+margin-bottom: 10px;
+resize: none;
+outline: none;
+transition: .5s
+}
+.reviewers-comment-btn {
+    display: flex;
+    justify-content: end;
+}
+.reviewers-comment-submit-button {
+    margin-right: 10px;
+}
+
+#reviewers-comment-clear {
+    font-size: 15px;
+    padding-inline: 5px;
+    border-radius: 5px;
+}
+
+ /* Style the buttons */
+ .reviwers-btn {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+/* active (pressed) buttons 
+... are grey */
+.active {
+    color: #ffa502;
+    
+}
+
+/* ... red box shadow on hover */
+.reviwers-btn.active:hover {
+    color: #ffa502;
+}
+
+/* light coral when clicked */
+.reviwers-btn.active:active {
+    color: #ffa502;
+}
+
+/* NOT active buttons are light grey --  see .reviwers-btn class */
+
+/* ... blue box shadow on hover */
+
+.reviwers-btn:not(.active):hover {
+    color: gray;
+}
+
+/* ... light blue when clicked */
+.reviwers-btn:not(.active):active {
+    color: #ffa502;
+}
+
+
+
+
+
+/* Blog Css */
+
+.blog-container{
+   
+    padding-block: 20px;
+    padding-inline: 40px;
+    margin-top: 20px;
+    width: 60vw;
+    margin-inline: auto;
+    min-height: 60vh;
+    border-radius: 10px;
+}
+
+
+.blog-comment-section {
+    margin-top: 30px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-comment-area {
+    width: 100%;
+    margin-inline: auto;
+    display: block;
+}
+.blog-comment-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.blog-comment-submit-button {
+    margin-right: 10px;
+}
+
+
+.blog-comment-text-area{
+    width: 100%;
+    min-height: 20vh;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+#char_count{
+    display: flex;
+    justify-content: end;
+}
+.blog-comment-submitbtn{
+    color: aliceblue;
+    background-color: #3742fa;
+    border: 1px solid white;
+    padding: 5px 15px;
+}
+.blog-comment-submitbtn:hover{
+    background-color: #ffa502;
+     
+}
+.blog-comment-cancelbtn{
+    margin-left: 5px;
+    color: #41464b;
+    border: 1px solid #41464b;
+    padding: 5px 15px;
+}
+.blog-comment-cancelbtn:hover{
+    color: #ffffff;
+    background-color: #ffa502;
+     
+}
+
+.blog-inputfield{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    border-radius: none;
+}
+
+.blog-form-buttons{
+    display: flex;
+    justify-content: end;
+}
+.blog-textarea-char{
+    margin-top: -20px;
+}
+#blog-textbox{
+    height: 15vh;
 }
